@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="katman_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F5F5F5;}
+	.st1{fill:#B5B5B5;}
+	.st2{fill:#DCDCDC;}
+	.st3{fill:#00394A;}
+	.st4{fill:#00181F;}
+</style>
+<g>
+	<circle class="st0" cx="238.2" cy="265.8" r="203.3"/>
+	<g>
+		<path class="st1" d="M238.2,478C121.2,478,26,382.8,26,265.8c0-117,95.2-212.2,212.2-212.2c117,0,212.2,95.2,212.2,212.2
+			C450.3,382.8,355.2,478,238.2,478z M238.2,71.4C131,71.4,43.8,158.6,43.8,265.8S131,460.1,238.2,460.1S432.5,373,432.5,265.8
+			S345.3,71.4,238.2,71.4z"/>
+	</g>
+	<g>
+		<g>
+			<g>
+				<polygon class="st2" points="224.1,212.6 159.3,126.5 136.5,126.5 211.6,229 				"/>
+				<polygon class="st2" points="251.7,212.9 317,126.5 339.8,126.5 264.2,229.3 				"/>
+			</g>
+			<polygon class="st2" points="259.8,260.9 237.9,232.4 216.6,260.9 105.3,405 154,405 238,293.7 322.3,405 371,405 			"/>
+		</g>
+	</g>
+	<g>
+		<path class="st3" d="M382.5,462.3l-7.9-10.8c58.9-43.3,94-112.7,94-185.7h13.4C481.9,343,444.7,416.5,382.5,462.3z"/>
+	</g>
+	<g>
+		<path class="st3" d="M30.1,166.6l-12.1-5.8C58.4,76.5,144.7,22,238.2,22v13.4C149.9,35.4,68.2,86.9,30.1,166.6z"/>
+	</g>
+	<rect x="230.8" y="152.9" class="st4" width="8.9" height="115.7"/>
+	
+		<rect x="264.5" y="253.7" transform="matrix(0.781 -0.6246 0.6246 0.781 -134.1395 235.6554)" class="st4" width="8.9" height="110.9"/>
+</g>
+</svg>
