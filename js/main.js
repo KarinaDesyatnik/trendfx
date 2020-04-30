@@ -36,10 +36,17 @@ $('.slider').slick({
  	$(".tool-tab-content").hide().eq($(this).index()).fadeIn()
 }).eq(0).addClass("active");
 
+
+
 	$(".tool-tab2").click(function() {
 	$(".tool-tab2").removeClass("active").eq($(this).index()).addClass("active");
  	$(".tool-tab-content2").hide().eq($(this).index()).fadeIn()
 }).eq(0).addClass("active");
+
+$('.tools__item').click(function(){
+	$('.tool-tab2').removeClass('tool-tab2-defolt');
+	})
+
 
 $('.call-for-action__button').click(function(){
 	$('.popup').addClass('active');			
@@ -49,10 +56,18 @@ $('.popup .close').click(function(){
 	})
 
 $('.tool-tab2').click(function(){
-	$('.tool-tab-content').hide();			
+	$('.tool-tab-content').hide();
+	$('.tool-tab').removeClass('active');
+	$('.tool-tab2').removeClass('defolt');
+	
+
+					
 	})
 $('.tool-tab').click(function(){
-	$('.tool-tab-content2').hide();			
+	$('.tool-tab-content2').hide();	
+	$('.tool-tab2').removeClass('active');
+	$('.tool-tab2').removeClass('defolt');
+	
 	})
 });
 
