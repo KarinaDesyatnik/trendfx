@@ -31,6 +31,22 @@ $('.slider').slick({
  	$(".tab-platform_item").hide().eq($(this).index()).fadeIn()
 }).eq(0).addClass("active");
 
+$('.call-for-action__button').click(function(){
+	$('.popup').addClass('active');			
+	})
+$('.popup .close').click(function(){
+	$('.popup').removeClass('active');			
+	})
 });
 
 
+jQuery(function($){
+  $(document).mouseup(function (e){ 
+    var popupContent = $(".popup__content"); 
+     var popup = $(".popup"); 
+    if (!popupContent.is(e.target) 
+        && popupContent.has(e.target).length === 0) { 
+     popup.removeClass('active'); 
+    }
+  });
+});
