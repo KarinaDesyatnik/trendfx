@@ -513,7 +513,7 @@ video {
 .top-header .top-header-nav-item:not(:first-child) .top-header-nav-link:after {
 	content: "";
 	position: absolute;
-	left: 0;
+	left: -1px;
 	top: 50%;
 	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
