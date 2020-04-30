@@ -31,13 +31,31 @@ $('.slider').slick({
  	$(".tab-platform_item").hide().eq($(this).index()).fadeIn()
 }).eq(0).addClass("active");
 
+	$(".tool-tab").click(function() {
+	$(".tool-tab").removeClass("active").eq($(this).index()).addClass("active");
+ 	$(".tool-tab-content").hide().eq($(this).index()).fadeIn()
+}).eq(0).addClass("active");
+
+	$(".tool-tab2").click(function() {
+	$(".tool-tab2").removeClass("active").eq($(this).index()).addClass("active");
+ 	$(".tool-tab-content2").hide().eq($(this).index()).fadeIn()
+}).eq(0).addClass("active");
+
 $('.call-for-action__button').click(function(){
 	$('.popup').addClass('active');			
 	})
 $('.popup .close').click(function(){
 	$('.popup').removeClass('active');			
 	})
+
+$('.tool-tab2').click(function(){
+	$('.tool-tab-content').hide();			
+	})
+$('.tool-tab').click(function(){
+	$('.tool-tab-content2').hide();			
+	})
 });
+
 
 
 jQuery(function($){
