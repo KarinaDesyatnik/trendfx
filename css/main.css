@@ -889,7 +889,7 @@ video {
 	overflow: hidden
 }
 .links-section .links-section-container {
-	padding: 25px 15px;
+	padding: 25px 0px;
 	display: grid;
 	grid-gap: 25px 50px
 }
@@ -965,7 +965,7 @@ video {
 	background-color: #e9e9e9
 }
 .notice-section .notice-section-container {
-	padding: 12px 15px
+	padding: 12px 0px
 }
 .notice-section .notice-title {
 	font-weight: 600;
