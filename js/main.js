@@ -69,6 +69,13 @@ $('.tool-tab').click(function(){
 	$('.tool-tab2').removeClass('defolt');
 	
 	})
+
+
+	$(".training-header__item--w").click(function() {
+	$(".training-header__item--w").removeClass("active").eq($(this).index()).addClass("active");
+ 	$(".training-header__content").hide().eq($(this).index()).fadeIn()
+}).eq(0).addClass("active");
+
 });
 
 
