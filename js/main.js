@@ -73,7 +73,28 @@ $('.tool-tab').click(function(){
 
 	$(".training-header__item--w").click(function() {
 	$(".training-header__item--w").removeClass("active").eq($(this).index()).addClass("active");
- 	$(".training-header__content").hide().eq($(this).index()).fadeIn()
+ 	$(".training__content-item").hide().eq($(this).index()).fadeIn()
+}).eq(0).addClass("active");
+
+
+	$(".education-tab").click(function() {
+	$(".education-tab").removeClass("active").eq($(this).index()).addClass("active");
+ 	$(".education-tab-content").hide().eq($(this).index()).fadeIn()
+}).eq(0).addClass("active");
+
+	$(".education-tab2").click(function() {
+	$(".education-tab2").removeClass("active").eq($(this).index()).addClass("active");
+ 	$(".education-tab-content2").hide().eq($(this).index()).fadeIn()
+}).eq(0).addClass("active");
+
+	$(".education-tab3").click(function() {
+	$(".education-tab3").removeClass("active").eq($(this).index()).addClass("active");
+ 	$(".education-tab-content3").hide().eq($(this).index()).fadeIn()
+}).eq(0).addClass("active");
+
+	$(".education-tab4").click(function() {
+	$(".education-tab4").removeClass("active").eq($(this).index()).addClass("active");
+ 	$(".education-tab-content4").hide().eq($(this).index()).fadeIn()
 }).eq(0).addClass("active");
 
 });
