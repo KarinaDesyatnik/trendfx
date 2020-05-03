@@ -69,6 +69,14 @@ $('.tool-tab').click(function(){
 	$('.tool-tab2').removeClass('defolt');
 	
 	})
+$('.qoestion').click(function(){
+	$(this).parent().toggleClass('active');
+	$(this).parent().find('.answer').slideToggle();	
+
+	
+	})
+
+
 
 
 	$(".training-header__item--w").click(function() {
@@ -96,6 +104,12 @@ $('.tool-tab').click(function(){
 	$(".education-tab4").removeClass("active").eq($(this).index()).addClass("active");
  	$(".education-tab-content4").hide().eq($(this).index()).fadeIn()
 }).eq(0).addClass("active");
+
+$(".faq__tab").click(function() {
+	$(".faq__tab").removeClass("active").eq($(this).index()).addClass("active");
+ 	$(".faq-tab-content").hide().eq($(this).index()).fadeIn()
+}).eq(0).addClass("active");
+
 
 });
 
