@@ -1,0 +1,30 @@
+<svg id="katman_1" data-name="katman 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 92 70">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Adsız_degrade_21);
+      }
+
+      .cls-2 {
+        fill: url(#Adsız_degrade_21-2);
+      }
+
+      .cls-3 {
+        fill: url(#Adsız_degrade_21-3);
+      }
+    </style>
+    <linearGradient id="Adsız_degrade_21" data-name="Adsız degrade 21" x1="57.16" y1="55.15" x2="58.88" y2="56.87" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00b17c"/>
+      <stop offset="0.5" stop-color="#00b17c"/>
+      <stop offset="1" stop-color="#064a5f"/>
+    </linearGradient>
+    <linearGradient id="Adsız_degrade_21-2" x1="71.16" y1="55.15" x2="72.88" y2="56.87" xlink:href="#Adsız_degrade_21"/>
+    <linearGradient id="Adsız_degrade_21-3" x1="12.33" y1="2.83" x2="78.17" y2="68.67" xlink:href="#Adsız_degrade_21"/>
+  </defs>
+  <title>pc icon 2</title>
+  <g>
+    <rect class="cls-1" x="57.01" y="55" width="2.02" height="2.02" rx="0.51" ry="0.51"/>
+    <rect class="cls-2" x="71.01" y="55" width="2.02" height="2.02" rx="0.51" ry="0.51"/>
+    <path class="cls-3" d="M85,20H73V11a2,2,0,0,0-2-2H7a2,2,0,0,0-2,2V51a2,2,0,0,0,2,2H38v2H31.52a.51.51,0,0,0-.51.51v1a.51.51,0,0,0,.51.51h15a.51.51,0,0,0,.51-.51v-1a.51.51,0,0,0-.51-.51H40V53h9v6a2,2,0,0,0,2,2H85a2,2,0,0,0,2-2V22A2,2,0,0,0,85,20ZM49,33V51H7V11H71v9H59a2,2,0,0,0-2,2v9H51A2,2,0,0,0,49,33ZM65,59H51V33H65Zm20,0H67V33a2,2,0,0,0-2-2H59V22H85Z"/>
+  </g>
+</svg>

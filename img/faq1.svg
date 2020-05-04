@@ -1,0 +1,30 @@
+<svg id="Ayırma_Modu" data-name="Ayırma Modu" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100.67 101.33">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Adsız_degrade_21);
+      }
+
+      .cls-2 {
+        fill: url(#Adsız_degrade_21-2);
+      }
+
+      .cls-3 {
+        fill: url(#Adsız_degrade_21-3);
+      }
+    </style>
+    <linearGradient id="Adsız_degrade_21" data-name="Adsız degrade 21" x1="29.6" y1="28.85" x2="38.1" y2="20.34" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8c8c8c"/>
+      <stop offset="0.5" stop-color="#a1a1a1"/>
+      <stop offset="1" stop-color="#8c8c8c"/>
+    </linearGradient>
+    <linearGradient id="Adsız_degrade_21-2" x1="53.24" y1="38.06" x2="80.09" y2="11.21" xlink:href="#Adsız_degrade_21"/>
+    <linearGradient id="Adsız_degrade_21-3" x1="27.54" y1="107.31" x2="73.05" y2="61.79" xlink:href="#Adsız_degrade_21"/>
+  </defs>
+  <title>X icon</title>
+  <g>
+    <path class="cls-1" d="M43,42.22,20.36,11.35H29.1L47.67,36ZM24.3,13.35,43,38.87,45.16,36,28.1,13.35Z"/>
+    <path class="cls-2" d="M57.47,42.3,52.76,36.1,71.49,11.35h8.75Zm-2.2-6.2L57.44,39,76.28,13.35h-3.8Z"/>
+    <path class="cls-3" d="M90,90.49H72.74L50.28,60.83,27.94,90.49H10.71L43.2,48.4,50.26,39l7.21,9.41Zm-15.73-3h9.62L55.09,50.23,50.28,44l-4.69,6.25L16.82,87.49h9.62L50.28,55.85Z"/>
+  </g>
+</svg>
