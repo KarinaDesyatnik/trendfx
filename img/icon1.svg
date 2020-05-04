@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="117.26" height="117.38" viewBox="0 0 117.26 117.38">
+  <defs>
+    <clipPath id="clip">
+      <use xlink:href="#fill"/>
+    </clipPath>
+  </defs>
+  <g id="icon_1" data-name="icon 1" transform="translate(-261.15 -1424.62)">
+    <g id="shadow_elips" data-name="shadow elips" transform="translate(261.15 1424.62)" fill="#00181f" stroke="#096987" stroke-width="3" opacity="0.149">
+      <ellipse cx="58.63" cy="58.69" rx="58.63" ry="58.69" stroke="none"/>
+      <ellipse cx="58.63" cy="58.69" rx="57.13" ry="57.19" fill="none"/>
+    </g>
+    <g id="front">
+      <g id="elips" transform="translate(271.75 1434.91)" fill="#f5f5f5" stroke="#b5b5b5" stroke-width="5">
+        <ellipse cx="47.89" cy="48.12" rx="47.89" ry="48.12" stroke="none"/>
+        <ellipse cx="47.89" cy="48.12" rx="45.39" ry="45.62" fill="none"/>
+      </g>
+      <path id="out_elips" data-name="out elips" d="M270.794,1459.884a54.508,54.508,0,0,1,49.235-31.217m54.52,54.771a54.778,54.778,0,0,1-22.828,44.572" fill="none" stroke="#00394a" stroke-width="3"/>
+      <g id="x_shadow" data-name="x shadow" opacity="0.302" style="mix-blend-mode: color-burn;isolation: isolate">
+        <g id="x_shadow-2" data-name="x shadow" transform="translate(-19.856 1403.307)">
+          <g id="Group_251" data-name="Group 251">
+            <path id="Path_296" data-name="Path 296" d="M336.2,68.846,321.826,49.693h-5.062l16.66,22.812Z" fill="#f4f4f4"/>
+            <path id="Path_297" data-name="Path 297" d="M342.329,68.912l14.492-19.218h5.062L345.1,72.572Z" fill="#f4f4f4"/>
+          </g>
+          <path id="Path_298" data-name="Path 298" d="M344.152,79.6,339.3,73.258l-4.742,6.34-24.706,32.1h10.828L339.313,86.9l18.716,24.792h10.827Z" fill="#f4f4f4"/>
+        </g>
+        <path id="Color_Overlay" data-name="Color Overlay" d="M338.174,1515l-18.716-24.793L300.829,1515H290l24.707-32.1,4.742-6.34,4.847,6.342L349,1515Zm-15.7-42.781L336.965,1453h5.062l-16.78,22.878ZM296.909,1453h5.062l14.371,19.152-2.773,3.66Z" style="fill: #212121;"/>
+      </g>
+      <g id="line" transform="translate(318.47 1457.62)" fill="#00181f" stroke="#00181f" stroke-width="5">
+        <rect id="fill" width="1.56" height="25.81" stroke="none"/>
+        <path d="M0,2.5h1.559999942779541M2.5,0v25.809999465942383M1.559999942779541,23.309999465942383h-1.559999942779541M-0.940000057220459,25.809999465942383v-25.809999465942383" fill="none" clip-path="url(#clip)"/>
+      </g>
+      <g id="x">
+        <g id="x-2" data-name="x" transform="translate(192.46 1427.316)">
+          <path id="Path_302" data-name="Path 302" d="M128.328,28.994l-1.807-2.31-1.768,2.309L115.54,40.684h4.038l6.946-9.031,6.979,9.031h4.037Z" fill="#f4f4f4"/>
+        </g>
+        <path id="Color_Overlay-2" data-name="Color Overlay" d="M325.963,1468l-6.979-9.031L312.038,1468H308l9.212-11.691,1.768-2.308,1.807,2.309L330,1468Z" fill="#096987"/>
+      </g>
+      <g id="mini_line" data-name="mini line" fill="#00181f">
+        <path d="M319.355,1482.343l15.839,20.335-1.227.964-15.839-20.335Z" stroke="none"/>
+        <path d="M 319.3554382324219 1482.342651367188 L 335.1944274902344 1502.677856445313 L 333.9676818847656 1503.64208984375 L 318.1285705566406 1483.307250976563 L 319.3554382324219 1482.342651367188 Z" stroke="none" fill="#00181f"/>
+      </g>
+      <g id="x-3" data-name="x">
+        <g id="x-4" data-name="x">
+          <g id="Group_253" data-name="Group 253">
+            <path id="Path_304" data-name="Path 304" d="M333.775,1503.567l-10.688-2.809-1.841,1.433,12.564,3.475Z" fill="#f4f4f4"/>
+            <path id="Path_305" data-name="Path 305" d="M336.024,1501.855l-.209-11,1.841-1.433.42,12.964Z" fill="#f4f4f4"/>
+          </g>
+        </g>
+        <path id="Color_Overlay-3" data-name="Color Overlay" d="M321.246,1502.191l1.841-1.433,10.688,2.809.035,2.1Zm14.778-.336-.209-11,1.841-1.433.419,12.964Z" fill="#096987"/>
+      </g>
+    </g>
+  </g>
+</svg>
