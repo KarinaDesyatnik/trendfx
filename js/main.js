@@ -111,6 +111,9 @@ $(".faq__tab").click(function() {
 }).eq(0).addClass("active");
 
 
+
+
+
 });
 
 
