@@ -1,28 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="140.02" height="106.76" viewBox="0 0 140.02 106.76">
-  <g id="Group_310" data-name="Group 310" transform="translate(-760.99 -1432.24)">
-    <path id="shadow" d="M877.9,1539V1433.69h23.11V1539Zm-58.459,0v-76.06h23.11V1539Zm-29.22,0v-61.44h23.11V1539Zm-29.23,0v-46.82H784.1V1539Zm87.681-.01v-90.68H871.78v90.68Z" fill="#064a5f" opacity="0.2"/>
-    <g id="front">
-      <rect id="graph" width="15.91" height="72.82" transform="translate(868.31 1465.34)" fill="#797979"/>
-      <rect id="graph-2" data-name="graph" width="15.91" height="62.71" transform="translate(848.19 1475.45)" fill="#949494"/>
-      <rect id="graph-3" data-name="graph" width="15.91" height="52.6" transform="translate(828.07 1485.56)" fill="#b2b2b2"/>
-      <rect id="graph-4" data-name="graph" width="15.91" height="42.49" transform="translate(807.95 1495.67)" fill="#ddd"/>
-      <rect id="graph-5" data-name="graph" width="15.91" height="32.38" transform="translate(787.84 1505.78)" fill="#f5f5f5"/>
-      <path id="line" d="M788.656,1490.139l79.5-40.439-2.09-2.533-76.815,39.544Z" fill="#f5f5f5"/>
-      <g id="X" style="mix-blend-mode: color-burn;isolation: isolate">
-        <g id="X-2" data-name="X" transform="matrix(0.561, 0.828, -0.829, 0.56, 818.395, 1313.824)">
-          <path id="Path_278" data-name="Path 278" d="M140.2,32.348l-1.975-2.577L136.3,32.347,126.232,45.39h4.411l7.589-10.075,7.625,10.075h4.411Z" fill="#f4f4f4"/>
-        </g>
-        <path id="Color_Overlay" data-name="Color Overlay" d="M862.557,1460.02l4.073-11.955-12.6-.644-2.473-3.653L868,1444.8l3.218.158-1.029,3.078-5.163,15.637Z" fill="#00181f"/>
-      </g>
-      <g id="X_" data-name="X " style="mix-blend-mode: color-burn;isolation: isolate">
-        <g id="X_2" data-name="X ">
-          <g id="Group_245" data-name="Group 245">
-            <path id="Path_280" data-name="Path 280" d="M872.294,1443.317l3.133-9.344-1.144-1.733-3.836,10.973Z" fill="#f4f4f4"/>
-            <path id="Path_281" data-name="Path 281" d="M873.657,1445.432l9.679.524,1.144,1.733-11.416-.462Z" fill="#f4f4f4"/>
-          </g>
-        </g>
-        <path id="Color_Overlay-2" data-name="Color Overlay" d="M873.065,1447.226l.592-1.795,9.68.524,1.144,1.733Zm-2.617-4.013,3.836-10.973,1.144,1.733-3.134,9.345Z" fill="#0e8db5"/>
-      </g>
-    </g>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="katman_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 716 506" style="enable-background:new 0 0 716 506;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.2;}
+	.st1{fill:#064A5F;}
+	.st2{fill:#F5F5F5;}
+	.st3{fill:#DDDDDD;}
+	.st4{fill:#B2B2B2;}
+	.st5{fill:#949494;}
+	.st6{fill:#797979;}
+	.st7{fill:#0E8DB5;}
+	.st8{fill:#00181F;}
+</style>
+<g>
+	<g class="st0">
+		<rect x="38" y="283.2" class="st1" width="107.7" height="212.7"/>
+		<rect x="171.1" y="210" class="st1" width="107.7" height="285.9"/>
+		<rect x="304.2" y="143.3" class="st1" width="107.7" height="352.4"/>
+		<rect x="437.2" y="76.1" class="st1" width="107.7" height="419.8"/>
+		<rect x="570.3" y="10.1" class="st1" width="107.7" height="485.7"/>
+	</g>
+	<g>
+		<g>
+			<rect x="131.3" y="345" class="st2" width="76.4" height="150.9"/>
+			<rect x="225.7" y="293.1" class="st3" width="76.4" height="202.8"/>
+			<rect x="320.1" y="245.8" class="st4" width="76.4" height="250"/>
+			<rect x="414.5" y="198.1" class="st5" width="76.4" height="297.8"/>
+			<rect x="508.9" y="151.3" class="st6" width="76.4" height="344.6"/>
+		</g>
+		<polygon class="st2" points="512.8,88.6 131.3,276.3 130.7,260.4 512.9,72.3 		"/>
+		<g>
+			<g>
+				<polygon class="st7" points="521.3,64.5 534.4,22.7 529,15.3 512.9,64.1 				"/>
+				<polygon class="st7" points="527.7,73.6 571.6,74.7 577,82.3 525.2,81.6 				"/>
+			</g>
+		</g>
+		<polygon class="st8" points="516.6,84.9 521,71.2 506.7,70.6 433.2,66.8 444.4,83 500.8,85.2 483.1,138.8 494.3,155 		"/>
+	</g>
+</g>
 </svg>

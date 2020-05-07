@@ -1,53 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="117.26" height="117.38" viewBox="0 0 117.26 117.38">
-  <defs>
-    <clipPath id="clip">
-      <use xlink:href="#fill"/>
-    </clipPath>
-  </defs>
-  <g id="icon_1" data-name="icon 1" transform="translate(-261.15 -1424.62)">
-    <g id="shadow_elips" data-name="shadow elips" transform="translate(261.15 1424.62)" fill="#00181f" stroke="#096987" stroke-width="3" opacity="0.149">
-      <ellipse cx="58.63" cy="58.69" rx="58.63" ry="58.69" stroke="none"/>
-      <ellipse cx="58.63" cy="58.69" rx="57.13" ry="57.19" fill="none"/>
-    </g>
-    <g id="front">
-      <g id="elips" transform="translate(271.75 1434.91)" fill="#f5f5f5" stroke="#b5b5b5" stroke-width="5">
-        <ellipse cx="47.89" cy="48.12" rx="47.89" ry="48.12" stroke="none"/>
-        <ellipse cx="47.89" cy="48.12" rx="45.39" ry="45.62" fill="none"/>
-      </g>
-      <path id="out_elips" data-name="out elips" d="M270.794,1459.884a54.508,54.508,0,0,1,49.235-31.217m54.52,54.771a54.778,54.778,0,0,1-22.828,44.572" fill="none" stroke="#00394a" stroke-width="3"/>
-      <g id="x_shadow" data-name="x shadow" opacity="0.302" style="mix-blend-mode: color-burn;isolation: isolate">
-        <g id="x_shadow-2" data-name="x shadow" transform="translate(-19.856 1403.307)">
-          <g id="Group_251" data-name="Group 251">
-            <path id="Path_296" data-name="Path 296" d="M336.2,68.846,321.826,49.693h-5.062l16.66,22.812Z" fill="#f4f4f4"/>
-            <path id="Path_297" data-name="Path 297" d="M342.329,68.912l14.492-19.218h5.062L345.1,72.572Z" fill="#f4f4f4"/>
-          </g>
-          <path id="Path_298" data-name="Path 298" d="M344.152,79.6,339.3,73.258l-4.742,6.34-24.706,32.1h10.828L339.313,86.9l18.716,24.792h10.827Z" fill="#f4f4f4"/>
-        </g>
-        <path id="Color_Overlay" data-name="Color Overlay" d="M338.174,1515l-18.716-24.793L300.829,1515H290l24.707-32.1,4.742-6.34,4.847,6.342L349,1515Zm-15.7-42.781L336.965,1453h5.062l-16.78,22.878ZM296.909,1453h5.062l14.371,19.152-2.773,3.66Z" style="fill: #212121;"/>
-      </g>
-      <g id="line" transform="translate(318.47 1457.62)" fill="#00181f" stroke="#00181f" stroke-width="5">
-        <rect id="fill" width="1.56" height="25.81" stroke="none"/>
-        <path d="M0,2.5h1.559999942779541M2.5,0v25.809999465942383M1.559999942779541,23.309999465942383h-1.559999942779541M-0.940000057220459,25.809999465942383v-25.809999465942383" fill="none" clip-path="url(#clip)"/>
-      </g>
-      <g id="x">
-        <g id="x-2" data-name="x" transform="translate(192.46 1427.316)">
-          <path id="Path_302" data-name="Path 302" d="M128.328,28.994l-1.807-2.31-1.768,2.309L115.54,40.684h4.038l6.946-9.031,6.979,9.031h4.037Z" fill="#f4f4f4"/>
-        </g>
-        <path id="Color_Overlay-2" data-name="Color Overlay" d="M325.963,1468l-6.979-9.031L312.038,1468H308l9.212-11.691,1.768-2.308,1.807,2.309L330,1468Z" fill="#096987"/>
-      </g>
-      <g id="mini_line" data-name="mini line" fill="#00181f">
-        <path d="M319.355,1482.343l15.839,20.335-1.227.964-15.839-20.335Z" stroke="none"/>
-        <path d="M 319.3554382324219 1482.342651367188 L 335.1944274902344 1502.677856445313 L 333.9676818847656 1503.64208984375 L 318.1285705566406 1483.307250976563 L 319.3554382324219 1482.342651367188 Z" stroke="none" fill="#00181f"/>
-      </g>
-      <g id="x-3" data-name="x">
-        <g id="x-4" data-name="x">
-          <g id="Group_253" data-name="Group 253">
-            <path id="Path_304" data-name="Path 304" d="M333.775,1503.567l-10.688-2.809-1.841,1.433,12.564,3.475Z" fill="#f4f4f4"/>
-            <path id="Path_305" data-name="Path 305" d="M336.024,1501.855l-.209-11,1.841-1.433.42,12.964Z" fill="#f4f4f4"/>
-          </g>
-        </g>
-        <path id="Color_Overlay-3" data-name="Color Overlay" d="M321.246,1502.191l1.841-1.433,10.688,2.809.035,2.1Zm14.778-.336-.209-11,1.841-1.433.419,12.964Z" fill="#096987"/>
-      </g>
-    </g>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="katman_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 538 538" style="enable-background:new 0 0 538 538;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.15;fill:#00181F;}
+	.st1{fill:#F5F5F5;}
+	.st2{fill:#B5B5B5;}
+	.st3{fill:#DCDCDC;}
+	.st4{fill:#00394A;}
+	.st5{fill:#00181F;}
+	.st6{fill:#096987;}
+</style>
+<g>
+	<circle class="st0" cx="269" cy="269" r="258"/>
+	<circle class="st1" cx="269" cy="269" r="203.3"/>
+	<g>
+		<path class="st2" d="M269,481.2C152,481.2,56.8,386,56.8,269S152,56.8,269,56.8S481.2,152,481.2,269
+			C481.1,386,386,481.2,269,481.2z M269,74.6C161.8,74.6,74.6,161.8,74.6,269S161.8,463.3,269,463.3S463.3,376.2,463.3,269
+			S376.1,74.6,269,74.6z"/>
+	</g>
+	<g>
+		<g>
+			<g>
+				<polygon class="st3" points="254.9,215.8 190.1,129.7 167.3,129.7 242.4,232.2 				"/>
+				<polygon class="st3" points="282.5,216.1 347.8,129.7 370.6,129.7 295,232.5 				"/>
+			</g>
+			<polygon class="st3" points="290.6,264.1 268.7,235.6 247.4,264.1 136.1,408.2 184.8,408.2 268.8,296.9 353.1,408.2 401.8,408.2 
+							"/>
+		</g>
+	</g>
+	<g>
+		<path class="st4" d="M413.3,465.5l-7.9-10.8c58.9-43.3,94-112.7,94-185.7h13.4C512.7,346.2,475.5,419.7,413.3,465.5z"/>
+	</g>
+	<g>
+		<path class="st4" d="M60.9,169.8L48.8,164C89.2,79.7,175.5,25.2,269,25.2v13.4C180.7,38.6,99,90.1,60.9,169.8z"/>
+	</g>
+	<rect x="261.6" y="156.1" class="st5" width="8.9" height="115.7"/>
+	
+		<rect x="295.4" y="256.9" transform="matrix(0.781 -0.6246 0.6246 0.781 -129.3817 255.7046)" class="st5" width="8.9" height="110.9"/>
+	<polygon class="st6" points="272,147.5 266,139.7 260.1,147.5 229.5,187.2 242.9,187.2 266,156.5 289.2,187.2 302.6,187.2 	"/>
+	<g>
+		<g>
+			<polygon class="st6" points="331.4,358.2 302.6,350.7 297.8,354.5 331.4,363.9 			"/>
+			<polygon class="st6" points="337.4,353.5 336.7,323.8 341.6,319.8 342.8,354.9 			"/>
+		</g>
+	</g>
+</g>
 </svg>
