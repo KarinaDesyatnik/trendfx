@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="146.45" height="146.45" viewBox="0 0 146.45 146.45">
+  <defs>
+    <filter id="box" x="1.5" y="1.5" width="144.95" height="144.95" filterUnits="userSpaceOnUse">
+      <feOffset dx="4.95" dy="4.95" input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood flood-color="#04303e" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="box-2" x="1.5" y="1.5" width="144.95" height="144.95" filterUnits="userSpaceOnUse">
+      <feOffset dx="4.95" dy="4.95" input="SourceAlpha"/>
+      <feGaussianBlur result="blur-2"/>
+      <feFlood flood-color="#04303e" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_296" data-name="Group 296" transform="translate(-838.5 -2763.5)">
+    <g id="box-3" data-name="box">
+      <g transform="matrix(1, 0, 0, 1, 838.5, 2763.5)" filter="url(#box-2)">
+        <rect id="box-4" data-name="box" width="140" height="140" transform="translate(1.5 1.5)" fill="#eaeaea" opacity="1"/>
+      </g>
+    </g>
+    <path id="lines" d="M840,2797v-32h53m87,0v21m0,89v30m-81,0H840v-16" fill="none" stroke="#064a5f" stroke-width="3"/>
+  </g>
+</svg>
