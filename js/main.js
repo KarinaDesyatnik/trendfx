@@ -36,6 +36,10 @@ $('.slider').slick({
  	$(".tool-tab-content").hide().eq($(this).index()).fadeIn()
 }).eq(0).addClass("active");
 
+	$(".partner-content__item").click(function() {
+	$(".partner-content__item").removeClass("active").eq($(this).index()).addClass("active");
+ 	$(".partner-content__content").hide().eq($(this).index()).fadeIn()
+}).eq(0).addClass("active");
 
 
 // 	$(".tool-tab2").click(function() {
