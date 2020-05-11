@@ -1,0 +1,22 @@
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #064a5f;
+      }
+    </style>
+  </defs>
+  <title>calender</title>
+  <g>
+    <rect class="cls-1" x="210.67" y="225" width="90.67" height="91"/>
+    <rect class="cls-1" x="90" y="346" width="90.67" height="91"/>
+    <rect class="cls-1" x="90" y="225" width="90.67" height="91"/>
+    <rect class="cls-1" x="331.33" y="225" width="90.67" height="91"/>
+    <rect class="cls-1" x="210.67" y="346" width="90.67" height="91"/>
+    <rect class="cls-1" x="331.33" y="346" width="90.67" height="91"/>
+    <polygon class="cls-1" points="452 30 452 90 422 90 422 30 90 30 90 90 60 90 60 30 0 30 0 120 512 120 512 30 452 30"/>
+    <path class="cls-1" d="M0,150V512H512V150ZM452,467H60V195H452Z"/>
+    <rect class="cls-1" x="60" width="30" height="30"/>
+    <rect class="cls-1" x="422" width="30" height="30"/>
+  </g>
+</svg>

@@ -41,6 +41,43 @@ $('.slider').slick({
  	$(".partner-content__content").hide().eq($(this).index()).fadeIn()
 }).eq(0).addClass("active");
 
+	$(".current-levels__tab").click(function() {
+	$(".current-levels__tab").removeClass("active").eq($(this).index()).addClass("active");
+ 	$(".current-levels__tab-content").hide().eq($(this).index()).fadeIn()
+}).eq(0).addClass("active");
+
+	$(".account-types__tab").click(function() {
+	$(".account-types__tab").removeClass("active").eq($(this).index()).addClass("active");
+}).eq(0).addClass("active");
+
+ if($(window).width() < 991) {
+$('.account-types__tab:first-child').click(function(){
+	$('.account-contetn-tab .account-types__col:first-child').show();
+	$('.account-contetn-tab .account-types__col:nth-child(2)').hide();
+	$('.account-contetn-tab .account-types__col:nth-child(3)').hide();
+	$('.account-contetn-tab .account-types__col:nth-child(4)').hide();			
+	})
+$('.account-types__tab:nth-child(2)').click(function(){
+	$('.account-contetn-tab .account-types__col:nth-child(2)').show();
+	$('.account-contetn-tab .account-types__col:first-child').hide();
+	$('.account-contetn-tab .account-types__col:nth-child(3)').hide();
+	$('.account-contetn-tab .account-types__col:nth-child(4)').hide();			
+	})
+$('.account-types__tab:nth-child(3)').click(function(){
+	$('.account-contetn-tab .account-types__col:nth-child(3)').show();
+	$('.account-contetn-tab .account-types__col:first-child').hide();
+	$('.account-contetn-tab .account-types__col:nth-child(2)').hide();
+	$('.account-contetn-tab .account-types__col:nth-child(4)').hide();			
+	})
+$('.account-types__tab:nth-child(4)').click(function(){
+	$('.account-contetn-tab .account-types__col:nth-child(4)').show();
+	$('.account-contetn-tab .account-types__col:first-child').hide();
+	$('.account-contetn-tab .account-types__col:nth-child(2)').hide();
+	$('.account-contetn-tab .account-types__col:nth-child(3)').hide();			
+	})
+
+}
+
 
 // 	$(".tool-tab2").click(function() {
 // 	$(".tool-tab2").removeClass("active").eq($(this).index()).addClass("active");
