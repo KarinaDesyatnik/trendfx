@@ -60,6 +60,7 @@ transition: 2s ease;
             transform: translate3d(0, 150%, 0) scale(1.4);
   }
 }
+
 .blob-btn__blob:nth-child(1) {
   left: 0%;
   -webkit-transition-delay: 0s;
@@ -90,6 +91,5 @@ transition: 2s ease;
             transform: translateZ(0) scale(1.4);
   }
 }
-
 
 	
