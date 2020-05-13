@@ -390,17 +390,31 @@ video {
 .header .header-nav-item:not(:last-child) {
 	margin-right: 16px
 }
-.header .header-nav-item:hover {
+.header .header-nav-item {
 	position: relative
 }
-.header .header-nav-item:hover:after {
+/*.header .header-nav-item:hover:after {
 	content: "";
 	position: absolute;
 	left: 0;
 	top: 100%;
 	width: 100%;
 	height: 2px;
-	background-color: #053b4c
+	background-color: #053b4c;
+}*/
+.header .header-nav-item:after {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 0%;
+	height: 2px;
+	background-color: #053b4c;
+	display: block;
+	transition: all 0.7s;
+}
+.header .header-nav-item:hover:after {
+	width: 100%
 }
 .header .header-nav-link {
 	font-family: Titillium Web, sans-serif;
@@ -409,7 +423,7 @@ video {
 	line-height: 1.13;
 	letter-spacing: -.16px;
 	color: #00161d;
-	text-transform: uppercase
+	text-transform: uppercase;
 }
 @media (min-width:1200px) {
 	.header .btn-container {
@@ -521,8 +535,8 @@ video {
 	height: 20px;
 	background-color: #dfdfdf
 }
-.top-header .top-header-nav-item:hover {
-	background-color: #e7e7e7
+.top-header .top-header-nav-item .blob-btn__blob{
+	background: #e7e7e7
 }
 .top-header .top-header-nav-item:hover .top-header-nav-link {
 	color: #064a5f

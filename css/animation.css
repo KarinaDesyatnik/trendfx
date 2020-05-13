@@ -4,7 +4,7 @@
   -webkit-transition: color 1s;
   transition: color 1s;
   cursor: pointer;
-  background: linear-gradient(to left, #dcdcdc, #fff );
+  
 transition: 2s ease;
 }
 .blob-btn a {	
@@ -53,6 +53,7 @@ transition: 2s ease;
   transition: transform 1s, -webkit-transform 1s;
   
 }
+
 @supports ((-webkit-filter: url("../index.html#goo")) or (filter: url("../index.html#goo"))) {
   .blob-btn__blob {
     -webkit-transform: translate3d(0, 150%, 0) scale(1.4);
