@@ -169,3 +169,14 @@ jQuery(function($){
     }
   });
 });
+
+ // ------ start input width calendar---
+$( function() {
+    $( ".datepicker" ).datepicker({
+      showOn: "button",
+      buttonImage: "img/calender.svg",
+      buttonImageOnly: true,
+      buttonText: ""
+    });
+  } );
+// ------ end input width calendar---
