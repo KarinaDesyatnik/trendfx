@@ -17,7 +17,10 @@ $('.top-header-nav-item--dropdown .top-header-nav-link').click(function(){
 $('.slider').slick({
 	prevArrow: false,
 	nextArrow: false,
-	dots: true
+	dots: true,
+	autoplay: true,
+	autoplaySpeed: 6000,
+	fade: true
 });
   // ------end mobil menu---
 
