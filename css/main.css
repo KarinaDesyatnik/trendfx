@@ -535,7 +535,10 @@ video {
 	height: 20px;
 	background-color: #dfdfdf
 }
-.top-header .top-header-nav-item .blob-btn__blob{
+.top-header .top-header-nav-item .blob-btn2__blob{
+	background: #e7e7e7
+}
+.top-header .top-header-nav-item .blob-btn3__blob{
 	background: #e7e7e7
 }
 .top-header .top-header-nav-item:hover .top-header-nav-link {

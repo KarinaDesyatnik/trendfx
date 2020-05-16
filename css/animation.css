@@ -93,3 +93,198 @@ transition: 2s ease;
 }
 
 	
+
+
+/*------------start new blob-----------*/
+.blob-btn2 {
+  z-index: 1;
+  position: relative;  
+  -webkit-transition: color 1s;
+  transition: color 1s;
+  cursor: pointer;
+  
+transition: 2s ease;
+}
+.blob-btn2 a { 
+  transition: color 1s ease-in-out, background-color 1s ease-in-out;  
+  transition: 1s ease;
+  z-index: 1; 
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: 2s ease;
+}
+.blob-btn2:hover:after {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  left: 0;
+  top: 0;
+}
+.blob-btn2__inner {
+  z-index: -1;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.blob-btn2__blobs {
+  position: relative;
+  display: block;
+  height: 100%;
+  -webkit-filter: url("#goo");
+          filter: url("#goo");
+}
+.blob-btn2__blob {
+  position: absolute;
+  top: 0px;
+  width: 33.333%;
+  height: 100%;
+  background: #f24400;
+  border-radius: 100%;
+  -webkit-transform: translate3d(0, 150%, 0) scale(1.7);
+          transform: translate3d(0, 150%, 0) scale(1.7);
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  
+}
+
+@supports ((-webkit-filter: url("../index.html#goo")) or (filter: url("../index.html#goo"))) {
+  .blob-btn2__blob {
+    -webkit-transform: translate3d(0, 150%, 0) scale(1.4);
+            transform: translate3d(0, 150%, 0) scale(1.4);
+  }
+}
+
+.blob-btn2__blob:nth-child(1) {
+  left: 0%;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+.blob-btn2__blob:nth-child(2) {
+  left: 40%;
+  -webkit-transition-delay: 0.08s;
+          transition-delay: 0.08s;
+}
+.blob-btn2__blob:nth-child(3) {
+  left: 80%;
+  -webkit-transition-delay: 0.16s;
+          transition-delay: 0.16s;
+}
+/*.blob-btn2__blob:nth-child(4) {
+  left: 90%;
+  -webkit-transition-delay: 0.24s;
+          transition-delay: 0.24s;
+}*/
+.blob-btn2:hover .blob-btn2__blob {
+  -webkit-transform: translateZ(0) scale(1.7);
+          transform: translateZ(0) scale(1.7);
+}
+@supports ((-webkit-filter: url("../index.html#goo")) or (filter: url("../index.html#goo"))) {
+  .blob-btn2:hover .blob-btn2__blob {
+    -webkit-transform: translateZ(0) scale(1.4);
+            transform: translateZ(0) scale(1.4);
+  }
+}
+
+
+
+/*------------3---------------*/
+
+
+.blob-btn3 {
+  z-index: 1;
+  position: relative;  
+  -webkit-transition: color 1s;
+  transition: color 1s;
+  cursor: pointer;
+  
+transition: 2s ease;
+}
+.blob-btn3 a { 
+  transition: color 1s ease-in-out, background-color 1s ease-in-out;  
+  transition: 1s ease;
+  z-index: 1; 
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: 2s ease;
+}
+.blob-btn3:hover:after {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  left: 0;
+  top: 0;
+}
+.blob-btn3__inner {
+  z-index: -1;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.blob-btn3__blobs {
+  position: relative;
+  display: block;
+  height: 100%;
+  -webkit-filter: url("#goo");
+          filter: url("#goo");
+}
+.blob-btn3__blob {
+  position: absolute;
+  top: 0px;
+  width: 50%;
+  height: 100%;
+  background: #f24400;
+  border-radius: 100%;
+  -webkit-transform: translate3d(0, 150%, 0) scale(1.7);
+          transform: translate3d(0, 150%, 0) scale(1.7);
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  
+}
+
+@supports ((-webkit-filter: url("../index.html#goo")) or (filter: url("../index.html#goo"))) {
+  .blob-btn3__blob {
+    -webkit-transform: translate3d(0, 150%, 0) scale(1.4);
+            transform: translate3d(0, 150%, 0) scale(1.4);
+  }
+}
+
+.blob-btn3__blob:nth-child(1) {
+  left: 0%;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+.blob-btn3__blob:nth-child(2) {
+  left: 50%;
+  -webkit-transition-delay: 0.08s;
+          transition-delay: 0.08s;
+}
+/*.blob-btn3__blob:nth-child(3) {
+  left: 80%;
+  -webkit-transition-delay: 0.16s;
+          transition-delay: 0.16s;
+}*/
+/*.blob-btn2__blob:nth-child(4) {
+  left: 90%;
+  -webkit-transition-delay: 0.24s;
+          transition-delay: 0.24s;
+}*/
+.blob-btn3:hover .blob-btn3__blob {
+  -webkit-transform: translateZ(0) scale(1.7);
+          transform: translateZ(0) scale(1.7);
+}
+@supports ((-webkit-filter: url("../index.html#goo")) or (filter: url("../index.html#goo"))) {
+  .blob-btn3:hover .blob-btn3__blob {
+    -webkit-transform: translateZ(0) scale(1.4);
+            transform: translateZ(0) scale(1.4);
+  }
+}
