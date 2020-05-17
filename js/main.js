@@ -184,4 +184,91 @@ $( function() {
   } );
 // ------ end input width calendar---
 
+$(".platform-col").on('mousemove', function(e) {
+	var w = $(".platform-col").width();
+	var h = $(".platform-col").height();
+
+	var offsetX = 0.5 - e.pageX / w;
+	var offsetY = 0.5 - e.pageY / h;
+
+	$(".parallax").each(function(i,el){
+		//var offset = parseInt($(el).data('offset'));
+		$(".parallax").addClass('active')
+
+		var translate = "translate3d(" + Math.round(offsetX * offsetY)
+		+ "px," + Math.round(offsetY * offsetY) + "px, 0px";
+		$(el).css({
+			'transform': translate
+
+		})
+	})
+})
+
+
+
+ if( window.innerWidth <= 991 ){
+  $('.platform-col > div').removeClass("parallax");
+  $('.parallax-wrapper > div').removeClass("parallax2");
+  $('.parallax-wrapper3 > div').removeClass("parallax3");
+  $('.parallax-wrapper4 > div').removeClass("parallax4");
+
+}
+
+$('.parallax-wrapper').on('mousemove', function(e) {
+	var w = $('.parallax-wrapper').width();
+	var h = $('.parallax-wrapper').height();
+
+	var offsetX = 0.5 - e.pageX / w;
+	var offsetY = 0.5 - e.pageY / h;
+
+	$(".parallax2").each(function(i,el){
+		var offset = parseInt($(el).data('offset'));
+$(".parallax2").addClass('active')
+		var translate = "translate3d(" + Math.round(offsetX * offset)
+		+ "px," + Math.round(offsetY * offset) + "px, 0px";
+		$(el).css({
+			'transform':translate
+
+		})
+	})
+})
+
+
+$('.parallax-wrapper3').on('mousemove', function(e) {
+	var w = $('.parallax-wrapper3').width();
+	var h = $('.parallax-wrapper3').height();
+
+	var offsetX = 0.5 - e.pageX / w;
+	var offsetY = 0.5 - e.pageY / h;
+
+	$(".parallax3").each(function(i,el){
+		var offset = parseInt($(el).data('offset'));
+$(".parallax3").addClass('active')
+		var translate = "translate3d(" + Math.round(offsetX * offset)
+		+ "px," + Math.round(offsetY * offset) + "px, 0px";
+		$(el).css({
+			'transform':translate
+
+		})
+	})
+})
+
+$('.parallax-wrapper4').on('mousemove', function(e) {
+	var w = $('.parallax-wrapper4').width();
+	var h = $('.parallax-wrapper4').height();
+
+	var offsetX = 0.5 - e.pageX / w;
+	var offsetY = 0.5 - e.pageY / h;
+
+	$(".parallax4").each(function(i,el){
+		var offset = parseInt($(el).data('offset'));
+$(".parallax4").addClass('active')
+		var translate = "translate3d(" + Math.round(offsetX * offset)
+		+ "px," + Math.round(offsetY * offset) + "px, 0px";
+		$(el).css({
+			'transform':translate
+
+		})
+	})
+})
 
