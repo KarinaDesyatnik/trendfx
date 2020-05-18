@@ -1,0 +1,22 @@
+<svg id="TrendFX_app_Logo" data-name="TrendFX app Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="103" height="103" viewBox="0 0 103 103">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.024" y1="0.166" x2="0.976" y2="0.834" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6bce98"/>
+      <stop offset="0.131" stop-color="#45b382"/>
+      <stop offset="0.277" stop-color="#239a6f"/>
+      <stop offset="0.397" stop-color="#0d8a63"/>
+      <stop offset="0.475" stop-color="#06855f"/>
+      <stop offset="1" stop-color="#064a5f"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_229" data-name="Group 229">
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="103" height="103" rx="30.012" fill="url(#linear-gradient)"/>
+    <g id="Group_228" data-name="Group 228">
+      <g id="Group_227" data-name="Group 227">
+        <path id="Path_228" data-name="Path 228" d="M48.526,40.376,34.994,22.392H30.228l15.687,21.42Z" fill="#6bce98"/>
+        <path id="Path_229" data-name="Path 229" d="M54.3,40.438,67.945,22.392h4.766l-15.8,21.482Z" fill="#6bce98"/>
+      </g>
+      <path id="Path_230" data-name="Path 230" d="M56.016,50.473l-4.564-5.955-4.465,5.953L23.723,80.608h10.2L51.46,57.329,69.083,80.608H79.277Z" fill="#f6f6f6"/>
+    </g>
+  </g>
+</svg>
