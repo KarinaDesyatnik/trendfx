@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="17" viewBox="0 0 17 17">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#768f97"/>
+      <stop offset="1" stop-color="#515e62"/>
+    </linearGradient>
+  </defs>
+  <g id="closed_kopya" data-name="closed kopya" transform="translate(-35.989 -238.988)">
+    <path id="Yuvarlak_Köşeli_Dikdörtgen_584" data-name="Yuvarlak Köşeli Dikdörtgen 584" d="M37.96,239.326l14.691,14.692a1.154,1.154,0,0,1-1.632,1.632L36.327,240.959a1.154,1.154,0,0,1,1.632-1.633Z" transform="translate(0)" fill="url(#linear-gradient)"/>
+    <path id="Yuvarlak_Köşeli_Dikdörtgen_584_kopya" data-name="Yuvarlak Köşeli Dikdörtgen 584 kopya" d="M36.327,254.018l14.691-14.692a1.154,1.154,0,0,1,1.632,1.633L37.96,255.65a1.154,1.154,0,0,1-1.632-1.632Z" transform="translate(0)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

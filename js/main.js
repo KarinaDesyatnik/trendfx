@@ -99,6 +99,14 @@ $('.popup .close').click(function(){
 	$('.popup').removeClass('active');			
 	})
 
+$('.popup-duyurular__close').click(function(){
+	$('.popup-duyurular').removeClass('active');			
+	})
+$('.duyurular__item .see-more').click(function(){
+	$('.popup-duyurular').addClass('active');			
+	})
+
+
 // $('.tool-tab2').click(function(){
 // 	$('.tool-tab-content').hide();
 // 	$('.tool-tab').removeClass('active');
@@ -172,6 +180,20 @@ jQuery(function($){
     }
   });
 });
+
+
+jQuery(function($){
+  $(document).mouseup(function (e){ 
+    var popupContent = $(".popup-duyurular__content"); 
+     var popup = $(".popup-duyurular"); 
+    if (!popupContent.is(e.target) 
+        && popupContent.has(e.target).length === 0) { 
+     popup.removeClass('active'); 
+    }
+  });
+});
+
+
 
  // ------ start input width calendar---
 $( function() {
