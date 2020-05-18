@@ -1,4 +1,5 @@
 $(function(){
+
   // ------ start mobil menu---
 $('.btn__menu').click(function(){
 		$(this).toggleClass('active');
