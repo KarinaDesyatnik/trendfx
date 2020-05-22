@@ -107,20 +107,17 @@ $('.duyurular__item .see-more').click(function(){
 	})
 
 $('.account-popup__close').click(function(){
-	$('.account-popup').removeClass('active');
+	$('.popup2').removeClass('active');
 	$('body').removeClass('account-page');				
 	})
-$('.account-table__bth--grey').click(function(){
-	$('.account-popup').addClass('active');
-	$('body').addClass('account-page');		
-
-			
+$('.account-table__btn2').click(function(){
+	$('.popup2').addClass('active');
+	$('body').addClass('account-page');					
 	})
-
 jQuery(function($){
   $(document).mouseup(function (e){ 
     var popupContent = $(".account-popup__content"); 
-     var popup = $(".account-popup"); 
+     var popup = $(".popup2"); 
     if (!popupContent.is(e.target) 
         && popupContent.has(e.target).length === 0) { 
      popup.removeClass('active'); 
@@ -131,7 +128,100 @@ jQuery(function($){
 jQuery(function($){
   $(document).mouseup(function (e){ 
     var popupContent = $(".account-popup__content"); 
-     var popup = $(".account-popup"); 
+     var popup = $(".popup2"); 
+     var body = $("body")
+    if (!popupContent.is(e.target) 
+        && popupContent.has(e.target).length === 0) { 
+     body.removeClass('account-page'); 
+    }
+  });
+});
+
+$('.account-popup__close').click(function(){
+	$('.popup1').removeClass('active');
+	$('body').removeClass('account-page');				
+	})
+$('.account-table__btn1').click(function(){
+	$('.popup1').addClass('active');
+	$('body').addClass('account-page');					
+	})
+jQuery(function($){
+  $(document).mouseup(function (e){ 
+    var popupContent = $(".account-popup__content"); 
+     var popup = $(".popup1"); 
+    if (!popupContent.is(e.target) 
+        && popupContent.has(e.target).length === 0) { 
+     popup.removeClass('active'); 
+    }
+  });
+});
+
+jQuery(function($){
+  $(document).mouseup(function (e){ 
+    var popupContent = $(".account-popup__content"); 
+     var popup = $(".popup1"); 
+     var body = $("body")
+    if (!popupContent.is(e.target) 
+        && popupContent.has(e.target).length === 0) { 
+     body.removeClass('account-page'); 
+    }
+  });
+});
+
+$('.account-popup__close').click(function(){
+	$('.popup3').removeClass('active');
+	$('body').removeClass('account-page');				
+	})
+$('.account-table__btn3').click(function(){
+	$('.popup3').addClass('active');
+	$('body').addClass('account-page');					
+	})
+jQuery(function($){
+  $(document).mouseup(function (e){ 
+    var popupContent = $(".account-popup__content"); 
+     var popup = $(".popup3"); 
+    if (!popupContent.is(e.target) 
+        && popupContent.has(e.target).length === 0) { 
+     popup.removeClass('active'); 
+    }
+  });
+});
+
+jQuery(function($){
+  $(document).mouseup(function (e){ 
+    var popupContent = $(".account-popup__content"); 
+     var popup = $(".popup3"); 
+     var body = $("body")
+    if (!popupContent.is(e.target) 
+        && popupContent.has(e.target).length === 0) { 
+     body.removeClass('account-page'); 
+    }
+  });
+});
+
+$('.account-popup__close').click(function(){
+	$('.popup4').removeClass('active');
+	$('body').removeClass('account-page');				
+	})
+$('.account-table__btn4').click(function(){
+	$('.popup4').addClass('active');
+	$('body').addClass('account-page');					
+	})
+jQuery(function($){
+  $(document).mouseup(function (e){ 
+    var popupContent = $(".account-popup__content"); 
+     var popup = $(".popup4"); 
+    if (!popupContent.is(e.target) 
+        && popupContent.has(e.target).length === 0) { 
+     popup.removeClass('active'); 
+    }
+  });
+});
+
+jQuery(function($){
+  $(document).mouseup(function (e){ 
+    var popupContent = $(".account-popup__content"); 
+     var popup = $(".popup4"); 
      var body = $("body")
     if (!popupContent.is(e.target) 
         && popupContent.has(e.target).length === 0) { 
