@@ -106,21 +106,40 @@ $('.duyurular__item .see-more').click(function(){
 	$('.popup-duyurular').addClass('active');			
 	})
 
+$('.account-popup__close').click(function(){
+	$('.account-popup').removeClass('active');
+	$('body').removeClass('account-page');				
+	})
+$('.account-table__bth--grey').click(function(){
+	$('.account-popup').addClass('active');
+	$('body').addClass('account-page');		
 
-// $('.tool-tab2').click(function(){
-// 	$('.tool-tab-content').hide();
-// 	$('.tool-tab').removeClass('active');
-// 	$('.tool-tab2').removeClass('defolt');
-	
+			
+	})
 
-					
-// 	})
-// $('.tool-tab').click(function(){
-// 	$('.tool-tab-content2').hide();	
-// 	$('.tool-tab2').removeClass('active');
-// 	$('.tool-tab2').removeClass('defolt');
-	
-// 	})
+jQuery(function($){
+  $(document).mouseup(function (e){ 
+    var popupContent = $(".account-popup__content"); 
+     var popup = $(".account-popup"); 
+    if (!popupContent.is(e.target) 
+        && popupContent.has(e.target).length === 0) { 
+     popup.removeClass('active'); 
+    }
+  });
+});
+
+jQuery(function($){
+  $(document).mouseup(function (e){ 
+    var popupContent = $(".account-popup__content"); 
+     var popup = $(".account-popup"); 
+     var body = $("body")
+    if (!popupContent.is(e.target) 
+        && popupContent.has(e.target).length === 0) { 
+     body.removeClass('account-page'); 
+    }
+  });
+});
+
 $('.qoestion').click(function(){
 	$(this).parent().toggleClass('active');
 	$(this).parent().find('.answer').slideToggle();	
