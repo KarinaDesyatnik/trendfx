@@ -6,7 +6,8 @@ $('.btn__menu').click(function(){
 		$('.header-nav').toggleClass('active');
 		$('.header__account-button').toggleClass('active');
 		$('.top-header-nav').toggleClass('active');
-		$('.top-header .top-header-nav-sublist').addClass('close')		
+		$('.top-header .top-header-nav-sublist').addClass('close');
+		$('.header__wrapper').toggleClass('active')		
 	})
 $('.top-header-nav-item--dropdown .top-header-nav-link').click(function(){
 		$(this).parent().find('.top-header-nav-sublist').toggleClass('close');
