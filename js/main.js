@@ -82,17 +82,6 @@ $('.account-types__tab:nth-child(4)').click(function(){
 
 }
 
-
-// 	$(".tool-tab2").click(function() {
-// 	$(".tool-tab2").removeClass("active").eq($(this).index()).addClass("active");
-//  	$(".tool-tab-content2").hide().eq($(this).index()).fadeIn()
-// }).eq(0).addClass("active");
-
-// $('.tools__item').click(function(){
-// 	$('.tool-tab2').removeClass('tool-tab2-defolt');
-// 	})
-
-
 $('.call-for-action__button').click(function(){
 	$('.popup').addClass('active');			
 	})
