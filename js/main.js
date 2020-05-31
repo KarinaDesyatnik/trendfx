@@ -79,7 +79,6 @@ $('.account-types__tab:nth-child(4)').click(function(){
 	$('.account-contetn-tab .account-types__col:nth-child(2)').hide();
 	$('.account-contetn-tab .account-types__col:nth-child(3)').hide();			
 	})
-
 }
 
 $('.call-for-action__button').click(function(){
