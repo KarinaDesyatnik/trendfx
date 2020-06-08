@@ -7,7 +7,8 @@ $('.btn__menu').click(function(){
 		$('.header__account-button').toggleClass('active');
 		$('.top-header-nav').toggleClass('active');
 		$('.top-header .top-header-nav-sublist').addClass('close');
-		$('.header__wrapper').toggleClass('active')		
+		$('.header__wrapper').toggleClass('active');
+		$('.btn-container-2').toggleClass('show');
 	})
 $('.top-header-nav-item--dropdown .top-header-nav-link').click(function(){
 		$(this).parent().find('.top-header-nav-sublist').toggleClass('close');
