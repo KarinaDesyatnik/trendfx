@@ -89,9 +89,17 @@ $('.popup .close').click(function(){
 	$('.popup').removeClass('active');			
 	})
 
+$('.header__account-button').click(function(){
+	$('.move-account-popup').addClass('active');			
+	})
+$('.move-account-popup .close').click(function(){
+	$('.move-account-popup').removeClass('active');			
+	})
+
 $('.popup-duyurular__close').click(function(){
 	$('.popup-duyurular').removeClass('active');			
 	})
+
 $('.duyurular__item .see-more').click(function(){
 	$('.popup-duyurular').addClass('active');			
 	})
@@ -114,7 +122,16 @@ jQuery(function($){
     }
   });
 });
-
+jQuery(function($){
+  $(document).mouseup(function (e){ 
+    var popupContent = $(".move-account-popup__content"); 
+     var popup = $(".move-account-popup"); 
+    if (!popupContent.is(e.target) 
+        && popupContent.has(e.target).length === 0) { 
+     popup.removeClass('active'); 
+    }
+  });
+});
 jQuery(function($){
   $(document).mouseup(function (e){ 
     var popupContent = $(".account-popup__content"); 
